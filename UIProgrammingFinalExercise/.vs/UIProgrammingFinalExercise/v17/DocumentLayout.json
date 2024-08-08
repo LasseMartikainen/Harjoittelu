@@ -1,0 +1,132 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Karelia Tradenomiopinnot\\K\u00E4ytt\u00F6liittym\u00E4ohjelmointi\\UIProgrammingFinalExercise\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8583115D-8698-44F7-8E01-3B9F6B656C7F}|UIProgrammingFinalExercise\\UIProgrammingFinalExercise.csproj|F:\\Karelia Tradenomiopinnot\\K\u00E4ytt\u00F6liittym\u00E4ohjelmointi\\UIProgrammingFinalExercise\\uiprogrammingfinalexercise\\company.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8583115D-8698-44F7-8E01-3B9F6B656C7F}|UIProgrammingFinalExercise\\UIProgrammingFinalExercise.csproj|solutionrelative:uiprogrammingfinalexercise\\company.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8583115D-8698-44F7-8E01-3B9F6B656C7F}|UIProgrammingFinalExercise\\UIProgrammingFinalExercise.csproj|F:\\Karelia Tradenomiopinnot\\K\u00E4ytt\u00F6liittym\u00E4ohjelmointi\\UIProgrammingFinalExercise\\uiprogrammingfinalexercise\\customers.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8583115D-8698-44F7-8E01-3B9F6B656C7F}|UIProgrammingFinalExercise\\UIProgrammingFinalExercise.csproj|solutionrelative:uiprogrammingfinalexercise\\customers.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8583115D-8698-44F7-8E01-3B9F6B656C7F}|UIProgrammingFinalExercise\\UIProgrammingFinalExercise.csproj|F:\\Karelia Tradenomiopinnot\\K\u00E4ytt\u00F6liittym\u00E4ohjelmointi\\UIProgrammingFinalExercise\\uiprogrammingfinalexercise\\products.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8583115D-8698-44F7-8E01-3B9F6B656C7F}|UIProgrammingFinalExercise\\UIProgrammingFinalExercise.csproj|solutionrelative:uiprogrammingfinalexercise\\products.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8583115D-8698-44F7-8E01-3B9F6B656C7F}|UIProgrammingFinalExercise\\UIProgrammingFinalExercise.csproj|F:\\Karelia Tradenomiopinnot\\K\u00E4ytt\u00F6liittym\u00E4ohjelmointi\\UIProgrammingFinalExercise\\uiprogrammingfinalexercise\\products.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8583115D-8698-44F7-8E01-3B9F6B656C7F}|UIProgrammingFinalExercise\\UIProgrammingFinalExercise.csproj|solutionrelative:uiprogrammingfinalexercise\\products.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8583115D-8698-44F7-8E01-3B9F6B656C7F}|UIProgrammingFinalExercise\\UIProgrammingFinalExercise.csproj|f:\\karelia tradenomiopinnot\\k\u00E4ytt\u00F6liittym\u00E4ohjelmointi\\uiprogrammingfinalexercise\\uiprogrammingfinalexercise\\newinvoice.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8583115D-8698-44F7-8E01-3B9F6B656C7F}|UIProgrammingFinalExercise\\UIProgrammingFinalExercise.csproj|solutionrelative:uiprogrammingfinalexercise\\newinvoice.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8583115D-8698-44F7-8E01-3B9F6B656C7F}|UIProgrammingFinalExercise\\UIProgrammingFinalExercise.csproj|F:\\Karelia Tradenomiopinnot\\K\u00E4ytt\u00F6liittym\u00E4ohjelmointi\\UIProgrammingFinalExercise\\uiprogrammingfinalexercise\\customers.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8583115D-8698-44F7-8E01-3B9F6B656C7F}|UIProgrammingFinalExercise\\UIProgrammingFinalExercise.csproj|solutionrelative:uiprogrammingfinalexercise\\customers.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8583115D-8698-44F7-8E01-3B9F6B656C7F}|UIProgrammingFinalExercise\\UIProgrammingFinalExercise.csproj|F:\\Karelia Tradenomiopinnot\\K\u00E4ytt\u00F6liittym\u00E4ohjelmointi\\UIProgrammingFinalExercise\\uiprogrammingfinalexercise\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8583115D-8698-44F7-8E01-3B9F6B656C7F}|UIProgrammingFinalExercise\\UIProgrammingFinalExercise.csproj|solutionrelative:uiprogrammingfinalexercise\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NewInvoice.xaml",
+              "DocumentMoniker": "F:\\Karelia Tradenomiopinnot\\K\u00E4ytt\u00F6liittym\u00E4ohjelmointi\\UIProgrammingFinalExercise\\UIProgrammingFinalExercise\\NewInvoice.xaml",
+              "RelativeDocumentMoniker": "UIProgrammingFinalExercise\\NewInvoice.xaml",
+              "ToolTip": "F:\\Karelia Tradenomiopinnot\\K\u00E4ytt\u00F6liittym\u00E4ohjelmointi\\UIProgrammingFinalExercise\\UIProgrammingFinalExercise\\NewInvoice.xaml",
+              "RelativeToolTip": "UIProgrammingFinalExercise\\NewInvoice.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2023-04-09T10:15:09.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Products.xaml.cs",
+              "DocumentMoniker": "F:\\Karelia Tradenomiopinnot\\K\u00E4ytt\u00F6liittym\u00E4ohjelmointi\\UIProgrammingFinalExercise\\UIProgrammingFinalExercise\\Products.xaml.cs",
+              "RelativeDocumentMoniker": "UIProgrammingFinalExercise\\Products.xaml.cs",
+              "ToolTip": "F:\\Karelia Tradenomiopinnot\\K\u00E4ytt\u00F6liittym\u00E4ohjelmointi\\UIProgrammingFinalExercise\\UIProgrammingFinalExercise\\Products.xaml.cs",
+              "RelativeToolTip": "UIProgrammingFinalExercise\\Products.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-04-09T07:40:16.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Products.xaml",
+              "DocumentMoniker": "F:\\Karelia Tradenomiopinnot\\K\u00E4ytt\u00F6liittym\u00E4ohjelmointi\\UIProgrammingFinalExercise\\UIProgrammingFinalExercise\\Products.xaml",
+              "RelativeDocumentMoniker": "UIProgrammingFinalExercise\\Products.xaml",
+              "ToolTip": "F:\\Karelia Tradenomiopinnot\\K\u00E4ytt\u00F6liittym\u00E4ohjelmointi\\UIProgrammingFinalExercise\\UIProgrammingFinalExercise\\Products.xaml",
+              "RelativeToolTip": "UIProgrammingFinalExercise\\Products.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2023-04-09T07:39:23.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Customers.xaml.cs",
+              "DocumentMoniker": "F:\\Karelia Tradenomiopinnot\\K\u00E4ytt\u00F6liittym\u00E4ohjelmointi\\UIProgrammingFinalExercise\\UIProgrammingFinalExercise\\Customers.xaml.cs",
+              "RelativeDocumentMoniker": "UIProgrammingFinalExercise\\Customers.xaml.cs",
+              "ToolTip": "F:\\Karelia Tradenomiopinnot\\K\u00E4ytt\u00F6liittym\u00E4ohjelmointi\\UIProgrammingFinalExercise\\UIProgrammingFinalExercise\\Customers.xaml.cs",
+              "RelativeToolTip": "UIProgrammingFinalExercise\\Customers.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-04-09T07:38:25.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Company.xaml",
+              "DocumentMoniker": "F:\\Karelia Tradenomiopinnot\\K\u00E4ytt\u00F6liittym\u00E4ohjelmointi\\UIProgrammingFinalExercise\\UIProgrammingFinalExercise\\Company.xaml",
+              "RelativeDocumentMoniker": "UIProgrammingFinalExercise\\Company.xaml",
+              "ToolTip": "F:\\Karelia Tradenomiopinnot\\K\u00E4ytt\u00F6liittym\u00E4ohjelmointi\\UIProgrammingFinalExercise\\UIProgrammingFinalExercise\\Company.xaml",
+              "RelativeToolTip": "UIProgrammingFinalExercise\\Company.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2023-04-09T07:16:19.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "F:\\Karelia Tradenomiopinnot\\K\u00E4ytt\u00F6liittym\u00E4ohjelmointi\\UIProgrammingFinalExercise\\UIProgrammingFinalExercise\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "UIProgrammingFinalExercise\\MainWindow.xaml",
+              "ToolTip": "F:\\Karelia Tradenomiopinnot\\K\u00E4ytt\u00F6liittym\u00E4ohjelmointi\\UIProgrammingFinalExercise\\UIProgrammingFinalExercise\\MainWindow.xaml",
+              "RelativeToolTip": "UIProgrammingFinalExercise\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2023-04-09T07:02:40.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Customers.xaml",
+              "DocumentMoniker": "F:\\Karelia Tradenomiopinnot\\K\u00E4ytt\u00F6liittym\u00E4ohjelmointi\\UIProgrammingFinalExercise\\UIProgrammingFinalExercise\\Customers.xaml",
+              "RelativeDocumentMoniker": "UIProgrammingFinalExercise\\Customers.xaml",
+              "ToolTip": "F:\\Karelia Tradenomiopinnot\\K\u00E4ytt\u00F6liittym\u00E4ohjelmointi\\UIProgrammingFinalExercise\\UIProgrammingFinalExercise\\Customers.xaml",
+              "RelativeToolTip": "UIProgrammingFinalExercise\\Customers.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2023-04-09T06:56:30.635Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

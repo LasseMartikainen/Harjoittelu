@@ -1,0 +1,107 @@
+﻿<Window x:Class="UIProgrammingFinalExercise.NewInvoice"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UIProgrammingFinalExercise"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        mc:Ignorable="d"
+        Title="Uusi lasku" Height="800" Width="800" ResizeMode="CanMinimize">
+    <Window.DataContext>
+        <local:Invoice />
+    </Window.DataContext>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="260"/>
+            <RowDefinition/>
+            <RowDefinition Height="40"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Width="250" HorizontalAlignment="Left" Margin="10,0,30,0">
+            <Label Content="Lähettäjä" Height="27" Margin="30,0,0,0"/>
+            <Label Content="Nimi" Height="27"/>
+            <Label Content="Osoite" Height="27"/>
+            <Label Content="" Height="27"/>
+            <Label Content="Vastaanottaja" Height="27" Margin="30,0,0,0"/>
+            <Label Content="Nimi" Height="27"/>
+            <Label Content="Osoite" Height="27"/>
+            <Label Content="Postinumero" Height="27"/>
+            <Label Content="Postitoimipaikka" Height="27"/>
+        </StackPanel>
+        <StackPanel Grid.Row="0" Width="230" HorizontalAlignment="Left" Margin="110,0,30,0">
+            <Label Height="27"/>
+            <Label Name="labelSenderName" Height="27"/>
+            <Label Name="labelSenderStreet" Height="27"/>
+            <Label Name="labelSenderPostal" Height="27"/>
+            <Button Content="Hae" Height="22" Width="80" Click="GetButtonClick"/>
+            <TextBox Name ="tbCustName" Height="22" Margin="0,10,0,0"/>
+            <TextBox Name ="tbCustStreet" Height="22" Margin="0,5,0,0"/>
+            <TextBox Name ="tbCustPostalCode" Height="22" Margin="0,5,0,0"/>
+            <TextBox Name ="tbCustCity" Height="22" Margin="0,5,0,0"/>
+        </StackPanel>
+        <StackPanel Grid.Row="0" Width="400" HorizontalAlignment="Right" Margin="0,0,30,0">
+            <Label Content="Lasku nro" Height="27"/>
+            <Label Content="Päivämäärä" Height="27"/>
+            <Label Content="Maksuehto" Height="27"/>
+            <Label Content="Huomautusaika" Height="27"/>
+            <Label Content="Viivästyskorko" Height="27"/>
+            <Label Content="Viitteenne" Height="27"/>
+            <Label Content="Lisätietoja" Height="27"/>
+        </StackPanel>
+        <StackPanel Name ="spInvoice" Grid.Row="0" Width="300" HorizontalAlignment="Right" Margin="0,0,34,0">
+            <Label Name ="labelInvoiceNumber" Content="{Binding Number}" FontWeight="Bold" Height="25"/>
+            <DatePicker SelectedDate="{x:Static sys:DateTime.Now}" Height="22" Margin="0,5,0,0"/>
+            <ComboBox Name ="combTermOfPayment" DataContext="{Binding TermOfPayment}" Height="22" Margin="0,5,0,0">
+                <ComboBoxItem Content="Sopimuksen mukaan"/>
+                <ComboBoxItem Content="7 pv netto"/>
+                <ComboBoxItem Content="10 pv netto"/>
+                <ComboBoxItem IsSelected ="True" Content="14 pv netto"/>
+                <ComboBoxItem Content="30 pv netto"/>
+            </ComboBox>
+            <TextBox Text="{Binding NoticeTime}" Height="22" Margin="0,5,0,0"/>
+            <StackPanel Orientation="Horizontal" Height="22" Margin="0,5,0,0">
+                <TextBox Text="{Binding ElementName=slider, Path=Value, UpdateSourceTrigger=PropertyChanged}" Width="40" TextAlignment="Right" />
+                <Label Content="%" Height="22" VerticalAlignment="Bottom" FontSize="10" Margin="0,0,10,0" />
+                <Slider Maximum ="30.0" TickPlacement="BottomRight" TickFrequency="0.5" IsSnapToTickEnabled="True" Name="slider" Width="200" Value="{Binding OverdueInterest}"/>
+            </StackPanel>
+            <TextBox Text="{Binding Reference}" Height="22" Margin="0,5,0,0"/>
+            <TextBox Text="{Binding Info}" Height="80" AcceptsReturn="True" Margin="0,5,0,0"/>
+        </StackPanel>
+        <StackPanel Grid.Row="1">
+            <DataGrid Name="productGrid" AutoGenerateColumns="False">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Koodi" Width="40" Binding="{Binding Code}"/>
+                    <DataGridTextColumn Header="Nimike" Width="10*" Binding="{Binding Desc}" />
+                    <DataGridTextColumn Header="Määrä" Width="50" Binding="{Binding Amount}" />
+                    <DataGridTextColumn Header="Yks" Width="30" Binding="{Binding Unit}"/>
+                    <DataGridTextColumn Header="a-hinta (alv0)" Width="5*" Binding="{Binding Price}" />
+                    <DataGridTextColumn Header="Ale%" Width="40" Binding="{Binding Discount}" />
+                    <DataGridTextColumn Header="Vero%" Width="45" Binding="{Binding TaxPer}" />
+                    <DataGridTextColumn Header="Vero" Width="3*" Binding="{Binding TaxAmount}" />
+                    <DataGridTextColumn Header="Veroton" Width="5*" Binding="{Binding TotalWoTax}" />
+                    <DataGridTextColumn Header="Verollinen" Width="5*" Binding="{Binding TotalWithTax}" />
+                </DataGrid.Columns>
+            </DataGrid>
+            <Separator Height="5"/>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                <Label Content="Yhteensä" FontWeight="Bold"/>
+                <Label Name ="labelTotalTax"  FontWeight="Bold" Width="75" Margin="2,0,0,0"/>
+                <Label Name ="labelTotalWoTax" FontWeight="Bold" Width="90" Margin="2,0,0,0"/>
+                <Label Name ="labelTotalWithTax" FontWeight="Bold" Margin="2,0,5,0" Width="90"/>
+            </StackPanel>
+            <Separator Height="50"/>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                <Label Content="Viitenumero"/>
+                <Label Content="{Binding RefNo}" FontWeight="Bold" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                <Label Content="BIC"/>
+                <Label Name="labelBIC" FontWeight="Bold" />
+                <Label Content="IBAN"/>
+                <Label Name="labelIBAN" FontWeight="Bold" />
+            </StackPanel>
+        </StackPanel>
+        <Button Grid.Row="2" Content="Tallenna" Width="100" Height="30" HorizontalAlignment="Right" Margin="0,0,150,0"/>
+        <Button Grid.Row="2" Content="Sulje" Width="100" Height="30" HorizontalAlignment="Right" Margin="0,0,30,0" Click="Peruuta_Click"/>
+
+    </Grid>
+</Window>

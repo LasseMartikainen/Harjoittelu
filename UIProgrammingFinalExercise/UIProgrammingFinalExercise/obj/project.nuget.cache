@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "972WtyYk9henfTqozRsdgMeY4oxqTiWAxuwFHKn+LCC0LUm3Q2CaK7cQdQeTFZdFj+vEkXXHGQl5EzopqmVQ0Q==",
+  "success": true,
+  "projectFilePath": "F:\\Karelia Tradenomiopinnot\\Käyttöliittymäohjelmointi\\UIProgrammingFinalExercise\\UIProgrammingFinalExercise\\UIProgrammingFinalExercise.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lasse\\.nuget\\packages\\mysqlconnector\\2.2.5\\mysqlconnector.2.2.5.nupkg.sha512"
+  ],
+  "logs": []
+}

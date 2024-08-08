@@ -1,0 +1,11 @@
+Tämä on koulutehtävä käyttöliittymäkurssin lopputehtäväksi.
+
+Ohjelma käyttää tehtävänannon mukaisia HeidiSQL tunnuksia:
+- Server = 127.0.0.1
+- User ID = opiskelija
+- Pwd = opiskelija1
+
+Ohjelmassa käytetty NuGettia MySqlConnector
+
+Tekijä:
+Lasse Martikainen 2023

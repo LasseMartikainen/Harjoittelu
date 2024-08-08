@@ -1,0 +1,27 @@
+﻿<Window x:Class="UIProgrammingFinalExercise.Products"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UIProgrammingFinalExercise"
+        mc:Ignorable="d"
+        Title="Tuotteet" Width="800" MinHeight="200" MinWidth="400" Height="400">
+    <Window.DataContext>
+        <local:Product />
+    </Window.DataContext>
+    <Grid>
+        <DataGrid Name="myGrid" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" IsReadOnly="True" Width="40" Binding="{Binding Number}" />
+                <DataGridTextColumn Header="Kuvaus" Width="6*" Binding="{Binding Desc}" />
+                <DataGridTextColumn Header="Hinta €" Width="2*" Binding="{Binding Price}" />
+                <DataGridTextColumn Header="ALV %" Width="*" Binding="{Binding Tax}"/>
+                <DataGridTextColumn Header="Yksikkö" Width="2*" Binding="{Binding QuantityDesc}" />
+
+            </DataGrid.Columns>
+
+        </DataGrid>
+        <Button Grid.Row="2" Content="Tallenna" Width="100" Height="30" HorizontalAlignment="Right" Margin="0,0,150,15" VerticalAlignment="Bottom" Click="Tallenna_Click"/>
+        <Button Grid.Row="2" Content="Peruuta" Width="100" Height="30" HorizontalAlignment="Right" Margin="0,0,30,15" Click="Peruuta_Click" VerticalAlignment="Bottom"/>
+    </Grid>
+</Window>

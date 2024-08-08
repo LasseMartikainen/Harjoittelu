@@ -1,0 +1,42 @@
+﻿<Window x:Class="UIProgrammingFinalExercise.Company"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UIProgrammingFinalExercise"
+        mc:Ignorable="d"
+        Title="Yritys" Height="350" Width="400">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height ="50"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Column="0" Margin="0,15,10,0" HorizontalAlignment="Right">
+            <Label Content="Y-tunnus"/>
+            <Label Content="Yrityksen nimi"/>
+            <Label Content="Katuosoite"/>
+            <Label Content="Postinumero"/>
+            <Label Content="Postitoimipaikka"/>
+            <Separator Height="20"/>
+            <Label Content="Pankkiyhteys"/>
+            <Label Content="IBAN"/>
+            <Label Content="BIC"/>
+        </StackPanel>
+        <StackPanel Grid.Column="1" Margin="0,12,0,0">
+            <TextBox Name="tbBusinessID" Height="22" Margin="0,5,0,0"/>
+            <TextBox Name="tbName" Height="22" Margin="0,5,0,0"/>
+            <TextBox Name="tbStreet" Height="22" Margin="0,5,0,0"/>
+            <TextBox Name="tbPostalCode" Height="22" Margin="0,5,0,0"/>
+            <TextBox Name="tbCity" Height="22" Margin="0,5,0,0"/>
+            <Separator Height="20"/>
+            <TextBox Name="tbIBAN" Height="22" Margin="0,30,0,0"/>
+            <TextBox Name="tbBIC" Height="22" Margin="0,5,0,0"/>
+        </StackPanel>
+        <Button Grid.Row="1" Grid.Column="1" Content="Tallenna" Width="100" Height="30" HorizontalAlignment="Right" Margin="0,0,150,0" Click="Tallenna_Click"/>
+        <Button Grid.Row="1" Grid.Column="1" Content="Peruuta" Width="100" Height="30" HorizontalAlignment="Right" Margin="0,0,30,0" Click="Peruuta_Click"/>
+    </Grid>
+</Window>
